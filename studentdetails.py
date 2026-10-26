@@ -1,0 +1,13 @@
+#read a student line
+print("enter a student detail")
+USN=input("enter a student's USN: ")
+name=input("enter a student's name: ")
+email=input("enter the students's email: ")
+mobile=input("enter the student's mobile no: ")
+print(f"student's USN is {USN}")
+print(f"student's Name is {name}")
+print(f"student's Email is {email}")
+print(f"student's Mobile is {mobile}")
+print("STUDENT USN\t\tSTUDENT NAME\t\t EMAIL\t\t MOBILE NO")
+print("*" *100)
+print()
